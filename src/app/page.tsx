@@ -20,7 +20,7 @@ function Home() {
   <div >
     <Navbar  setCategory={setCategory} setLanguage={setLanguage}/>
     
-    {/* <NewsBoard category={category} language={language}/> */}
+    <NewsBoard category={category} language={language}/>
   </div>
   
   );
