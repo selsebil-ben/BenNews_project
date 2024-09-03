@@ -10,7 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "BEN News",
-  description: "Stay updated with BENNews",
+  description: "Stay updated with BENNews"
+  
 };
 
 export default function RootLayout({
@@ -20,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body className={inter.className}>
         {children}
         <Bootstrap/>
