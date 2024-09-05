@@ -8,7 +8,8 @@ function NewsBoard({category,language}) {
   
 
  const [articles , setArticles]= useState([]);
- const API_KEY = '355e8d5c6a7ea8758dbb4c1346edd7d7'
+//  const API_KEY = '355e8d5c6a7ea8758dbb4c1346edd7d7'
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY
  useEffect(()=>{
    
   
