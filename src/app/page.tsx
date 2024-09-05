@@ -1,8 +1,8 @@
 
  'use client';
-import Image from "next/image";
-import styles from "./page.module.css";
-import Link from "next/link";
+// import Image from "next/image";
+// import styles from "./page.module.css";
+// import Link from "next/link";
 import Navbar from "@/compo/Navbar";
 import NewsBoard from "@/compo/NewsBoard";
 import { useState } from "react";
