@@ -4,3 +4,6 @@
 - The project is fed by a NewsAPI.
 - Please note that the NewsAPI is free that's why u can not call it more than 10 times. The API call is made through a Use effect hook each time you change either the category or the language.
 - Install all the packages with the cmd >npm install
+- Launch the project with the cmd >npm run dev
+## Please have a look on deployed version :
+https://bennews-project.onrender.com
